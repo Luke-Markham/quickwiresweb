@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#cloudfn
+/cloudFn
+
 # next.js
 /.next/
 /out/
