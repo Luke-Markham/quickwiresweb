@@ -1,5 +1,5 @@
 const metadata = {
-  title: "Account - QuickWires",
+  title: "Account | QuickWires",
   description: "QuickWires Account",
 };
 

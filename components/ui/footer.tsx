@@ -167,7 +167,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom area */}
-          <div className="md:flex md:items-center md:justify-between">
+          <div className="flex items-end justify-between">
             {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
@@ -249,13 +249,31 @@ export default function Footer() {
             </ul> */}
 
             {/* Copyrights note */}
-            <div className="text-white-600 text-md mr-4">
-              &copy; Quickwires.io. All rights reserved.
+            <div className="flex flex-col text-white-600 text-md mr-4">
+              <Link
+                href="/support"
+                className="font-medium text-blue-600 hover:text-gray-200  transition duration-150 ease-in-out"
+              >
+                Support
+              </Link>
+              <Link
+                href="/privacy-policy"
+                className="font-medium text-blue-600 hover:text-gray-200  transition duration-150 ease-in-out"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms-and-conditions"
+                className="font-medium text-blue-600 hover:text-gray-200  transition duration-150 ease-in-out"
+              >
+                Terms and Conditions
+              </Link>
+              <div className="block md:hidden text-white-600 text-md mr-4">
+                &copy; Quickwires.io. All rights reserved.
+              </div>
             </div>
-            <div className="text-white-600 text-md mr-4">
-              <a target="_blank" href="mailto:support@quickwires.io">
-                Support@QuickWires.io
-              </a>
+            <div className="hidden md:block text-white-600 text-md mr-4">
+              &copy; Quickwires.io. All rights reserved.
             </div>
           </div>
         </div>
